@@ -1,0 +1,238 @@
+
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: Sans-serif;
+}
+body{
+    overflow: hidden;
+  background-image: url("./Assest/bgimage.jpg");
+  background-size: cover;
+  background-size: 100% 115vh;
+  background-repeat: no-repeat;
+  /* background: rgba(0, 0, 0, 0.01); */
+ 
+}
+
+.container{
+    width: 100bw;
+    height: 115vh;
+    padding-left: 4rem;
+    padding-top: 2rem; 
+    padding-right: 4rem;
+    
+    background: rgba(0, 0, 0, 0.454);
+}
+
+.logo img{
+     height: 50px;
+     /* width: 80px; */
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: darkblue; */
+    /* padding-right: 4rem; */
+    height: 50px;
+}
+
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    color: #ffffff;
+    /* background-color: khaki; */
+    width: 50vw;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    /* text-shadow: 2px 2px #817f7f; */
+
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* font-size: rem; */
+    /* border-bottom: 3px solid #000000; */
+    /* border-radius: 0.5rem; */
+}
+
+.line {
+    /* font-size: 2rem; */
+    height: 3px;
+    background: #ffffff;
+}
+
+/* hero */
+
+.hero{
+    /* background-color: hotpink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    padding-top: 2rem;
+}
+
+.left{
+    /* background-color: aqua; */
+    /* display: flex; */
+    height: 60vh;
+    width: 50vw;
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: Sans-serif;
+}
+
+.left button{
+    background-color: transparent;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    border: 2px solid #faf6f6;
+    color: #faf6f6;
+    margin-top: 3rem;
+    /* font-family: Sans-serif; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.right{
+    /* background-color: olive; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    height: 100%;
+    width: 45vw;
+}
+
+.square{
+    background-color: rgba(207, 207, 207, 0.776);
+    width: 45%;
+    height: 35%;
+    padding-left: 1rem;
+    /* box-shadow: rgb(0, 0, 0); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.s-1{
+    position: relative;
+    left: 8.5rem;
+}
+
+.s-2{
+    position: relative;
+    right: 8.5rem;
+}
+
+/* .circle-line{
+    display: flex;
+    height: 2px;
+    width: 80px;
+    background-color: red;
+    justify-content: end;
+    align-items: center;
+} */
+/* .circle{
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+ 
+
+} */
+/* .s-1  .circle-line{
+ 
+    transform: rotate(90deg);
+    margin-left: 10rem;
+    margin-top: 7rem;
+} */
+
+/* .s-2  .circle-line{ */
+     /* position: absolute; */
+    /* bottom: 1rem; */
+    /* top: 2rem;
+    left: 15rem; */
+    /* display: flex; */
+    /* margin-left: 10rem;
+    margin-bottom: 10rem; */
+    /* margin-top: 7rem; */
+    /* color: red; */
+/* } */
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 80px;
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.square p{
+    margin-top: 1rem;
+    color: #fff;
+    /* font-size: 1.5rem; */
+}
+
+
+
+/* responsive properties */
+
+ @media only screen and (min-width: 1028px){
+    
+    .left h1{
+        font-size: 3rem;
+        /* background-color: darkblue; */
+    }
+
+    .square{
+        /* background-color: rgba(207, 207, 207, 0.776); */
+        width: 43%;
+        height: 38%;
+        padding-left: 0.8rem;
+        /* box-shadow: rgb(0, 0, 0); */
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    }
+    
+  
+}
+ @media only screen and (max-width: 980px){
+    
+    .left h1{
+        font-size: 1rem;
+        /* background-color: darkblue; */
+    }
+
+    .square{
+        /* background-color: rgba(207, 207, 207, 0.776); */
+        width: 40%;
+        height: 30%;
+        padding-left: 1rem;
+        /* box-shadow: rgb(0, 0, 0); */
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    }
+    .square .icon{
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        height: 30px;
+        width: 75px;
+        /* background-color: #fff; */
+        border-radius: 15px;
+        font-size: 15px;
+        margin-top: 0.5rem;
+    }
+    
+    .square p{
+        margin-top: 0.5rem;
+        /* color: #fff; */
+        font-size: 0.6rem;
+    }
+}
